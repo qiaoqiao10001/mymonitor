@@ -1,0 +1,24 @@
+ErrorEvent {isTrusted: true, message: "Uncaught TypeError: Cannot set properties of undefined (setting 'error')", filename: 'http://localhost:5000/', lineno: 20, colno: 28, …}
+bubbles: false
+cancelBubble: false
+cancelable: true
+colno: 28
+composed: false
+currentTarget: Window {window: Window, self: Window, document: document, name: '', location: Location, …}
+defaultPrevented: false
+error: TypeError: Cannot set properties of undefined (setting 'error') at errorClick (http://localhost:5000/:20:28) at HTMLInputElement.onclick (http://localhost:5000/:12:64)
+message: "Cannot set properties of undefined (setting 'error')"
+stack: "TypeError: Cannot set properties of undefined (setting 'error')\n    at errorClick (http://localhost:5000/:20:28)\n    at HTMLInputElement.onclick (http://localhost:5000/:12:64)"
+[[Prototype]]: Error
+eventPhase: 0
+filename: "http://localhost:5000/"
+isTrusted: true
+lineno: 20
+message: "Uncaught TypeError: Cannot set properties of undefined (setting 'error')"
+path: [Window]
+returnValue: true
+srcElement: Window {window: Window, self: Window, document: document, name: '', location: Location, …}
+target: Window {window: Window, self: Window, document: document, name: '', location: Location, …}
+timeStamp: 50387
+type: "error"
+[[Prototype]]: ErrorEve
